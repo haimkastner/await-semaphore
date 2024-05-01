@@ -1,6 +1,6 @@
 {
-  "name": "await-semaphore",
-  "version": "0.1.4",
+  "name": "@haimkastner/await-semaphore",
+  "version": "0.1.10",
   "description": "Awaitable semaphore/mutex",
   "scripts": {
     "prepare": "npm run build && npm run test",
@@ -33,13 +33,13 @@
   "devDependencies": {
     "@types/assert": "^1.5.4",
     "@types/mocha": "^8.2.2",
-    "@types/node": "^15.12.4",
+    "@types/node": "^20.12.7",
     "assert": "^2.0.0",
     "mocha": "^9.0.1",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.4"
   },
   "dependencies": {
-    "unitsnet-js": "^1.0.25"
+    "unitsnet-js": "^2.2.4"
   }
 }
